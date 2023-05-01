@@ -1,0 +1,56 @@
+article:
+  anchor_label: "Anchor"
+  date: "{{ .Date }}"
+  date_updated: "Оновлено: {{ .Date }}"
+  draft: "Чернетка"
+  edit_title: "Редагувати"
+  reading_time:
+    one: "{{ .Count }} хв."
+    other: "{{ .Count }} хв."
+  reading_time_title: "Reading time"
+  table_of_contents: "Зміст"
+  word_count:
+    one: "{{ .Count }} слово"
+    other: "{{ .Count }} слів"
+
+author:
+  byline_title: "Автор"
+
+code:
+  copy: "Копіювати"
+  copied: "Скопійовано"
+
+error:
+  404_title: "Сторінку не знайдено :confused:"
+  404_error: "Помилка 404"
+  404_description: "It seems that the page you've requested does not exist."
+
+footer:
+  dark_appearance: "Switch to dark appearance"
+  light_appearance: "Switch to light appearance"
+  powered_by: "Сайт працює на рушії {{ .Hugo }} з темою {{ .Congo }}"
+
+list:
+  externalurl_title: "Link to external site"
+  no_articles: "There's no articles to list here yet."
+
+nav:
+  scroll_to_top_title: "Scroll to top"
+  skip_to_main: "Skip to main content"
+
+search:
+  open_button_title: "Search (/)"
+  close_button_title: "Close (Esc)"
+  input_placeholder: "Search"
+
+sharing:
+  email: "Send via email"
+  facebook: "Share on Facebook"
+  linkedin: "Share on LinkedIn"
+  mastodon: "Toot on Mastodon"
+  pinterest: "Pin on Pinterest"
+  reddit: "Submit to Reddit"
+  twitter: "Tweet on Twitter"
+
+shortcode:
+  recent_articles: "Недавні дописи"

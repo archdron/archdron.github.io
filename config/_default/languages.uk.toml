@@ -1,24 +1,24 @@
-languageCode = "en"
-languageName = "English"
-displayName = "EN"
-isoCode = "en"
-weight = 1
+languageCode = "uk"
+languageName = "Українська"
+displayName = "УКР"
+isoCode = "uk"
+weight = 2
 rtl = false
 
-title = "Andrii Serbovets"
-description = "Translating, editing, localizing games and stuff"
-copyright = "© Andrii Serbovets"
+title = "Андрій Сербовець"
+description = "Перекладаю, редагую, локалізую усяку всячину"
+copyright = "© Сербовець А. А."
 
 dateFormat = "2 January 2006"
 
 [params]
-  #mainSections = ["section1", "section2"]
+  # mainSections = ["section1", "section2"]
 
 [author]
-  name = "Andrii Serbovets"
+  name = "Андрій Сербовець"
   # image = "img/author.jpg"
-  headline = "I'm only human"
-  bio = "A little bit about you"
+  headline = "Перекладаю, редагую, локалізую усяку всячину"
+  bio = "А тут трохи про себе"
   links = [
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },
