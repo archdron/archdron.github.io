@@ -3,13 +3,11 @@ languageName = "English"
 displayName = "EN"
 isoCode = "en"
 weight = 1
-rtl = false
 
 title = "Andrii Serbovets"
 description = "Translating, editing, localizing games and stuff"
 copyright = "© Andrii Serbovets"
-
-dateFormat = "2 January 2006"
+dateFormat = "Jan 2, 2006"
 
 [params]
   #mainSections = ["section1", "section2"]
@@ -17,7 +15,7 @@ dateFormat = "2 January 2006"
 [author]
   name = "Andrii Serbovets"
   # image = "img/author.jpg"
-  headline = "I'm only human"
+  headline = "Translating, editing, proofreading, and localizing stuff"
   bio = "A little bit about you"
   links = [
   #   { email = "mailto:hello@your_domain.com" },

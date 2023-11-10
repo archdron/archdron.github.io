@@ -3,7 +3,6 @@ languageName = "Українська"
 displayName = "УКР"
 isoCode = "uk"
 weight = 2
-rtl = false
 
 title = "Андрій Сербовець"
 description = "Перекладаю, редагую, локалізую усяку всячину"

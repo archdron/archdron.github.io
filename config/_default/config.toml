@@ -3,11 +3,11 @@
 # https://jpanther.github.io/congo/docs/getting-started/
 
 baseURL = "https://archdron.github.io"
-defaultContentLanguage = "uk"
 
-enableRobotsTXT = true
+enableRobotsTXT = false
 paginate = 10
 summaryLength = 0
+colorScheme = "congo"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
@@ -36,3 +36,52 @@ summaryLength = 0
     disable = false
     privacyEnhanced = false
 
+[languages]
+  [langages.en]
+    [languages.en.params]
+      languageCode="en"
+      languageName = "English"
+      languageDirection = 'ltr'
+      displayName = "EN"
+      weight = 1
+      isoCode = "en"
+      dateFormat = "Jan 2, 2006"
+      disabled = false
+      title = "Andrii Serbovets"
+      description = "Translating, editing, localizing games and stuff"
+      copyright = "© Andrii Serbovets"
+    [languages.en.author]
+      image = "img/author.jpg"
+      name = "Andrii Serbovets"
+      headline = "Translating, editing, proofreading, and localizing stuff"
+      links = [
+        { linkedin = "https://linkedin.com/in/aserbovets" },
+        { mastodon = "https://mastodon.online/@archdron" },
+        { medium = "https://medium.com/@archdron" },
+        { telegram = "https://t.me/aserbovets" },
+      ]
+      
+  [languages.uk]
+    [languages.uk.params]
+      languageCode = "uk"
+      languageName = "Українська"
+      languageDirection = 'ltr'
+      displayName = "УКР"
+      isoCode = "uk"
+      weight = 2
+      rtl = false
+      dateFormat = "2 жовтня 2006 р."
+      disabled = false
+      title = "Андрій Сербовець"
+      description = "Перекладаю, редагую, локалізую усяку всячину"
+      copyright = "© Сербовець А. А."
+    [languages.uk.author]
+      image = "img/author.jpg"
+      name = "Андрій Сербовець"
+      headline = "Перекладаю, редагую, локалізую усяку всячину"
+      links = [
+        { linkedin = "https://linkedin.com/in/aserbovets" },
+        { mastodon = "https://mastodon.online/@archdron" },
+        { medium = "https://medium.com/@archdron" },
+        { telegram = "https://t.me/aserbovets" },
+      ]
