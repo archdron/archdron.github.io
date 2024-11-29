@@ -53,7 +53,7 @@ colorScheme = "congo"
     [languages.en.author]
       image = "img/author.jpg"
       name = "Andrii Serbovets"
-      headline = "Translating, editing, proofreading, and localizing stuff"
+      headline = "Overthinking translation, editing, proofreading, and localization 🤔"
       links = [
         { linkedin = "https://linkedin.com/in/aserbovets" },
         { mastodon = "https://mastodon.online/@archdron" },
@@ -78,7 +78,7 @@ colorScheme = "congo"
     [languages.uk.author]
       image = "img/author.jpg"
       name = "Андрій Сербовець"
-      headline = "Перекладаю, редагую, локалізую усяку всячину"
+      headline = "Надто переймаюся перекладами, редагуванням, і локалізацією 🤔"
       links = [
         { linkedin = "https://linkedin.com/in/aserbovets" },
         { mastodon = "https://mastodon.online/@archdron" },
